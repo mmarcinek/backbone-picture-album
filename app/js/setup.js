@@ -10,7 +10,7 @@
   window.app.Routers = {};
 
   // Root URL
-  app.rootURL = myEndpoint;
+  app.rootURL = 'http://tiy-515.herokuapp.com/collections/picture_mike';
 
 
 

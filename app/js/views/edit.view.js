@@ -22,7 +22,7 @@
     },
 
     render: function () {
-      this.$el.html(this.template);
+      this.$el.html(this.template({ fam: this.collection.toJSON() } ));
     },
 
     addFamily: function (event) {
@@ -33,14 +33,14 @@
       var self = this,
           form = $(event.target),
           title = form.find('#familyMember').val(),
-          url = form.find('#hostURL').val(),
+          image = form.find('#hostURL').val(),
           description = form.find('#description').val();
 
       // Create new Family instance
 
       var fam = new app.Models.Pictures({
         title: title,
-        url: url,
+        image: image,
         description: description
       });
 

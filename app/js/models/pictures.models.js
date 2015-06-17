@@ -8,7 +8,7 @@
 
    defaults: {
     title: '',
-    url: '',
+    image: '',
     description: ''
    }
 

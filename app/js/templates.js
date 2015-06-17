@@ -1,6 +1,6 @@
 this["hbs"] = this["hbs"] || {};
 this["hbs"]["edit"] = Handlebars.template({"compiler":[6,">= 2.0.0-beta.1"],"main":function(depth0,helpers,partials,data) {
-    return "<form>\n  <input type=\"text\" id=\"familyMember\" placeholder=\"Name of Family Member\">\n  <input type=\"text\" id=\"hostURL\" placeholder=\"URL of image\">\n  <input type=\"text\" id=\"description\" placeholder=\"Description\">\n  <button id=\"addFamily\"></button>\n</form>\n";
+    return "<h3>Enter a Person here</h3>\n<form id=\"addFamily\">\n  <input type=\"text\" id=\"familyMember\" placeholder=\"Name of Family Member\">\n  <input type=\"text\" id=\"hostURL\" placeholder=\"URL of image\">\n  <input type=\"text\" id=\"description\" placeholder=\"Description\">\n  <button id=\"addFamily\">Add Person</button>\n</form>\n";
 },"useData":true});
 this["hbs"] = this["hbs"] || {};
 this["hbs"]["example"] = Handlebars.template({"compiler":[6,">= 2.0.0-beta.1"],"main":function(depth0,helpers,partials,data) {

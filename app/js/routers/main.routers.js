@@ -23,7 +23,7 @@
       });
     },
 
-    editMember : function (){
+    editFamily : function (){
       new app.Views.EditView({
         collection: this.collection
       });
