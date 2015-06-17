@@ -23,8 +23,8 @@
       });
     },
 
-    singleMember : function (){
-      new app.Views.SingleView({
+    editMember : function (){
+      new app.Views.EditView({
         collection: this.collection
       });
     }

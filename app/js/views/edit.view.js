@@ -2,7 +2,7 @@
 
   'use strict';
 
-  app.Views.SingleView = Backbone.View.extend({
+  app.Views.EditView = Backbone.View.extend({
 
     className: 'single',
 
@@ -24,7 +24,8 @@
     },
 
     render: function () {
-      this.$el.html(this.template({ picture: this.collection.toJSON() }));
+      this.$el.html(this.template);
+      // { picture: this.collection.toJSON() })
     },
 
     addFamily: function (event) {
