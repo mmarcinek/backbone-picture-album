@@ -4,15 +4,13 @@
 
   app.Views.EditView = Backbone.View.extend({
 
-    className: 'single',
+    className: 'edit',
 
-    template: hbs.single,
+    template: hbs.edit,
 
     events: {
       'submit #addFamily' : 'addFamily'
     },
-
-    template: hbs.single,
 
     initialize: function (options){
       var args = options || {};
@@ -25,7 +23,6 @@
 
     render: function () {
       this.$el.html(this.template);
-      // { picture: this.collection.toJSON() })
     },
 
     addFamily: function (event) {
