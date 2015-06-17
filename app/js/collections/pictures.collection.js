@@ -6,7 +6,7 @@
 
     model : app.Models.Pictures,
 
-   url: app.rootURL
+    url: app.rootURL
 
   });
 

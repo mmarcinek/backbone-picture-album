@@ -7,8 +7,9 @@
     idAttribute: '_id',
 
    defaults: {
-    picture: '',
-    title: ''
+    title: '',
+    url: '',
+    description: ''
    }
 
 
