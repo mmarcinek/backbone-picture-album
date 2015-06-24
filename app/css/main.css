@@ -1,3 +1,45 @@
+html {
+  box-sizing: border-box; }
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit; }
+
 .content {
   width: 75%;
   margin: 50px auto; }
+
+.person {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 23.23176%;
+  width: 25%;
+  border: 1px solid rgba(0, 0, 0, 0.3); }
+  .person:last-child {
+    margin-right: 0; }
+  .person:nth-child(4n) {
+    margin-right: 0; }
+  .person:nth-child(4n+1) {
+    clear: left; }
+  .person img {
+    width: 400px;
+    margin-bottom: 50px; }
+  .person li {
+    list-style-type: none; }
+  .person .title {
+    text-align: center; }
+
+.individual {
+  width: 75%;
+  margin: 50px auto;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.4); }
+  .individual h3 {
+    font-size: 2.8em; }
+  .individual li {
+    list-style-type: none; }
+  .individual p {
+    font-size: 1.5em; }

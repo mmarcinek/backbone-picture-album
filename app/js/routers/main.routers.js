@@ -7,8 +7,8 @@
     initialize: function (options){
 
       var args = options || {};
-      this.collection = args.collection;
 
+      this.collection = args.collection;
     },
 
     routes: {
@@ -25,6 +25,13 @@
 
     editFamily : function (){
       new app.Views.EditView({
+        collection: this.collection
+      });
+    },
+
+    singleMember: function (id){
+      new app.Views.Single({
+        singleId: id,
         collection: this.collection
       });
     }

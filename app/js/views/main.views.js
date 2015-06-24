@@ -21,7 +21,7 @@
 
     render: function () {
       console.log('I am rendering');
-      this.$el.html(this.template);
+      this.$el.html(this.template({ member: this.collection.toJSON() }));
     }
 
   });

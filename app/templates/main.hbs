@@ -1,12 +1,17 @@
 <h2>The people I know...</h2>
-<ul>
-  {{#each member}}
-    <li data-id="{{_id}}">
-      <a href="#member/{{_id}}"><img src="{{url}}"></a>
-    </li>
-  {{/each}}
-</ul>
 
-</ul>
+  {{#each member}}
+  <div class="person">
+    <li data-id="{{_id}}">
+    <li class="title"><h3>{{title}}</h3></li>
+
+      <a href="#member/{{_id}}"><img src="{{image}}"></a>
+    </li>
+  </div>
+  {{/each}}
+
+
+
+
 
 

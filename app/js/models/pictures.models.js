@@ -2,11 +2,12 @@
 
   'use strict';
 
-  app.Models.Pictures = new Backbone.Model.extend ({
+  app.Models.Pictures = Backbone.Model.extend ({
 
     idAttribute: '_id',
 
    defaults: {
+    id: '',
     title: '',
     image: '',
     description: ''

@@ -9,6 +9,7 @@
     new app.Routers.MainRouter({
       collection: allFamily
     });
+
     Backbone.history.start();
 
   });
